@@ -12,5 +12,4 @@ import { User } from "./user/user";
 })
 export class App {
   users = DUMMY_USERS;
-  protected readonly title = signal('udemy-angular-app');
 }
